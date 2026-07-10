@@ -15,6 +15,9 @@ env:
 jobs:
   dist:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # goreleaser needs this to publish GitHub releases
+      packages: write   # crank xpkg push and docker login need this for GHCR
     steps:
 
       - uses: actions/checkout@v4
