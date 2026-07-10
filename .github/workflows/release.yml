@@ -7,9 +7,9 @@ on:
 
 env:
   APP_NAME: provider-minio
-  PUSH_UPBOUND: "False"
-  PUSH_PACKAGE: "True"
-  PUSH_IMAGE: "False"
+  PUSH_UPBOUND: "false"
+  PUSH_PACKAGE: "true"
+  PUSH_IMAGE: "false"
   SUFFIX: "/controller"
 
 jobs:
